@@ -1,4 +1,6 @@
+
 from decouple import config
+
 try:
     APP_ID = config("APP_ID", cast=int)
     API_HASH = config("API_HASH")
